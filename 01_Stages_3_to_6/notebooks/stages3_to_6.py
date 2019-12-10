@@ -5,7 +5,7 @@ import scipy as sp
 
 from scbeta_scrnaseq.process_indrops import SparsifiedIndropsAnalysis
 
-        
+
 class x1_x2_Base(SparsifiedIndropsAnalysis):
 
     data_dir = None
@@ -43,7 +43,7 @@ class x1_S6c(x1_x2_Base):
     flask='x1'
     stage="S6c"
 
-    counts_input_files = [('x2_S3c_b1', 'x2_S3c_b1'), ('x2_S3c_b2', 'x2_S3c_b2')]
+    counts_input_files = [('x1_S6c_b1', 'x1_S6c_b1'), ('x1_S6c_b2', 'x1_S6c_b2')]
 
 class x2_S3c(x1_x2_Base):
     data_dir=""

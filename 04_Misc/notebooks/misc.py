@@ -36,11 +36,11 @@ class PSCsComparison(SparsifiedIndropsAnalysis):
     log10_local_lib_size_threshold = 2.0
 
     counts_input_files = [
-        ('hues8_v4_b1', 'hues8_v4_b1'),
-        ('hues8_v4_b2', 'hues8_v4_b2'),
-        ('ips101631_v4_b1', 'ips101631_v4_b1'),
-        ('ips101631_v4_b2', 'ips101631_v4_b2'),
-        ('hues8_x3_b2', 'hues8_x3_b2'),
+        ('DA004_b1', 'hues8_v4_b1'),
+        ('DA004_b2', 'hues8_v4_b2'),
+        ('DC004_b1', 'ips101631_v4_b1'),
+        ('DC004_b2', 'ips101631_v4_b2'),
+        ('DA007_b1', 'hues8_x3_b2'),
         ]
 
 
